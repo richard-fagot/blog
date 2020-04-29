@@ -1,0 +1,19 @@
+baseURL = "https://richard-fagot.github.io/"
+DefaultContentLanguage = "fr"
+languageCode = "fr-fr"
+title = "Richard Fagot"
+theme = "beautifulhugo"
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Apprendre, Tester, Bricoler, Transmettre"
+  logo = "img/avatar.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "2 January 2006"
+
+  [Author]
+  name = "Richard Fagot"
+  website = "https://richard-fagot.github.io/"
+  github = "richard-fagot"
+  linkedin = "richardfagot"
+  twitter = "@richardfagot"
