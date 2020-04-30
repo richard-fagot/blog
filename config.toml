@@ -8,8 +8,9 @@ theme = "beautifulhugo"
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
   subtitle = "Apprendre, Tester, Bricoler, Transmettre"
   logo = "img/avatar.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
+  favicon = "img/favicon.png"
   dateFormat = "2 January 2006"
+  mainSections = ["post","posts"]
 
   [Author]
   name = "Richard Fagot"
