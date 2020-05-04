@@ -1,5 +1,6 @@
 ---
-title: "Rainbow Lightpainting"
+title: Rainbow Lightpainting
+subtitle: Fabrication d'un bâton lumineux arc-en-ciel multimode
 date: 2020-04-28T19:05:46+02:00
 draft: true
 math: true
@@ -32,11 +33,34 @@ Les outils dont elle dispose sont essentiellement des petites lampes torches sur
 1. Des vis longueur XX diamètre XX ;
 1. [Facultatif] Les différents moules d'assemblage ;
 
-## Étape 1 : Impression 3D du manche
-## Étape 2 : Gravure du circuit imprimé
+## Présentation du bâton lumineux
+Le bâton lumineux se présente sous la forme d'un « sabre laser » d’une soixantaine de centimètres de long (hors manche) qui peut soit afficher une couleur fixe soit varier de couleur (effet *arc-en-ciel*). 
+
+Le mode couleur fixe permet de créer des drapés monochrome. En appuyant sur le bouton de sélection du mode une fois on sélectionne la couleur désirée en tournant le potentiomètre. Un second appui sur le bouton permet de régler la luminosité avec ce même potentiomètre.
+
+Le mode  *arc-en-ciel* permet de créer des drapés dont la couleur change le long du mouvement. En appuyant sur le bouton de sélection du mode une fois on contrôle la vitesse de variation en tournant le potentiomètre. Un second appui sur le bouton permet de régler la luminosité comme pour le mode couleur fixe.
+
+À la mise en route du bâton lumineur on se trouve dans le mode *arc-en-ciel* et on peut contrôler la vitesse de variation des couleurs.
+
+**Ajouter un petit graphique expliquant le passage entre les modes**
+ 
+
+## Étape 2 : Partie électronique
+L’ATTiny85 est un super petit microcontrolleur. Il dispose de 6 broches d’entrée/sortie et d’une mémoire bien suffisante pour le programme, il peut tourner à 8 MHz (c’est ultra rapide pour un petit programme comme celui-ci), il est facilement programmable avec un arduino et il est vraiment bon marché.
+
+![ATTiny85 pinout](/img/)
+Pour limiter le nombre de composants électronique j’ai choisi de contrôler la luminosité des leds par PWM (et non par le courant). Du coup, il faut choisir avec soins les broches de l’ATTiny car toutes ne proposent pas cette fonction.
+
+Pour faire ce bâton lumineux il nous faut des leds RGBs, ici à cathode commune (la masse en commun). Chaque couleur est contrôlée par une broche dédiée sur la led.
+Nous avons également besoin d'un bouton poussoir pour pouvoir changer de mode (une broche) ainsi qu'un potentiomètre pour faire varier 
+
+Le schéma électronique et le typon ont été conçus avec [EasyEDA](https://easyeda.com/).
+Pour réaliser ce projet j'ai cherché un composant programmable, petit et bon marché. Comme j'ai l'habitude de travailler avec les arduinos 
+
 ## Étape 3 : Programmation de l’ATTiny85
 ## Étape 4 : Soudure des composants
 ## Étape 5 : Soudure des LEDs
+## Étape 1 : Impression 3D du manche
 ## Étape 6 : Assemblage et mise en route
 
 
