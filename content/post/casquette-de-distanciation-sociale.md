@@ -14,7 +14,7 @@ Je vous propose ici un petit tuto pour réaliser une casquette pour aider vos (p
 
 La casquette est surmontée d'un élégant tube décoré avec goût, d'une longueur totale d'environ 1,5 m qui permet à deux enfants portant le même dispositif d'être séparés d'environ 1 m en comptant la largeur d'épaule (on ne dirait pas comme ça mais les enfants sont bâtis comme des armoires à glace).
 
-Le tube est fixé à la casquette par des velcros pour pouvoir l'en hôter lorsque l'enfant joue dehors. Comme ça, inutile d'avoir deux casquettes. Lorsque l'enfant maîtrise la distance à avoir avec ses camarades il porte sa casquette nue. S'il faut lui rappeler la distance à respecter, il suffit de fixer le tube sur la casquette.
+Le tube est fixé à la casquette par des velcros pour pouvoir l'enlever facilement lorsque l'enfant joue dehors. Comme ça, inutile d'avoir deux casquettes. Lorsque l'enfant maîtrise la distance à avoir avec ses camarades il porte sa casquette nue. S'il faut lui rappeler la distance à respecter, il suffit de fixer le tube sur la casquette.
 
 ## Matériel
 Pour le tube :
@@ -103,15 +103,18 @@ Prenez une grande inspiration, expirez lentement, profitez encore de ce moment d
 
 4. Fixer à la colle chaude ces bandes sur le tube en les alignant bien avec les velcros de la casquette&nbsp;;
 
+![Bandes velcro](/img/casquette-distanciation/velcro-tube.png)
+
+
 Enfoncez-vous avec délectation dans votre siège. Prenez une grande inspiration, expirez lentement, sentez la sérénité vous envahir une dernière fois.
 
 Il est temps d'aller libérer le fauve.
 
 ## Étape 4 : Finitions 
 
-Peut-être ressentirez-vous un petit peu de culpabilité en allant chercher votre enfant, mais soyez rassuré(e) : non seulement vous avez permi à votre enfant de réaliser à quel point la liberté est un bien à la fois précieux et fragile qu'il faut chérir et protéger - et ça, c'est bien grâce à vous et à ce sacrifice que vous avez concédé, à contre cœur bien sûr, de faire une activité aussi créative et divertissante sans pouvoir partager ce petit moment de bonheur avec lui - mais en plus vous venez à lui avec une super casquette de distanciation à décorer avec plein de trucs extras : des feutres, des strass, des pièces emporte-piécées, des pompons et pleins d'autres choses encore plus fantastiques et merveilleuses encore.
+Peut-être ressentirez-vous un petit peu de culpabilité en allant chercher votre enfant, mais soyez rassuré(e) : non seulement vous avez permis à votre enfant de réaliser à quel point la liberté est un bien à la fois précieux et fragile qu'il faut chérir et protéger - et ça, c'est bien grâce à vous et à ce sacrifice que vous avez concédé, à contre cœur bien sûr, de faire une activité aussi créative et divertissante sans pouvoir partager ce petit moment de bonheur avec lui - mais en plus vous venez à lui avec une super casquette de distanciation à décorer avec plein de trucs extras : des feutres, des strass, des pièces emporte-piécées, des pompons et pleins d'autres choses encore plus fantastiques et merveilleuses.
 
-Laissez à votre enfant le temps d'encaisser le choc de cette surprise magnifique que vous lui faite et laisser-le décorer son tube à envie.
+Laissez à votre enfant le temps d'encaisser le choc de cette surprise magnifique que vous lui faites et laisser-le décorer son tube à envie.
 
 ## Option : Les pompons en bout
 
