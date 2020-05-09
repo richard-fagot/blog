@@ -1,3 +1,7 @@
 body {
     text-align: justify;
 }
+
+figcaption h4 {
+    text-align: center;
+}

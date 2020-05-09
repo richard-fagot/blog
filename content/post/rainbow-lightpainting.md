@@ -36,11 +36,19 @@ Les outils dont elle dispose sont essentiellement des petites lampes torches sur
 ## Présentation du bâton lumineux
 Le bâton lumineux se présente sous la forme d'un « sabre laser » d’une soixantaine de centimètres de long (hors manche) qui peut soit afficher une couleur fixe soit varier de couleur (effet *arc-en-ciel*). 
 
-Le mode couleur fixe permet de créer des drapés monochrome. En appuyant sur le bouton de sélection du mode une fois on sélectionne la couleur désirée en tournant le potentiomètre. Un second appui sur le bouton permet de régler la luminosité avec ce même potentiomètre.
+Le mode couleur fixe permet de créer des drapés monochrome. Un premier appui sur le bouton de sélection du mode permet de sélectionner la couleur désirée en tournant le potentiomètre. Un second appui sur le bouton permet de régler la luminosité avec ce même potentiomètre.
 
-Le mode  *arc-en-ciel* permet de créer des drapés dont la couleur change le long du mouvement. En appuyant sur le bouton de sélection du mode une fois on contrôle la vitesse de variation en tournant le potentiomètre. Un second appui sur le bouton permet de régler la luminosité comme pour le mode couleur fixe.
+Le mode  *arc-en-ciel* permet de créer des drapés dont la couleur change le long du mouvement. Un premier appui le bouton de sélection du mode permet de contrôler la vitesse de variation en tournant le potentiomètre. Un second appui sur le bouton permet de régler la luminosité comme pour le mode couleur fixe.
 
-À la mise en route du bâton lumineur on se trouve dans le mode *arc-en-ciel* et on peut contrôler la vitesse de variation des couleurs.
+À la mise en route du bâton lumineur on se trouve dans le mode *arc-en-ciel* et on peut contrôler la vitesse de variation des couleurs :
+
+- On allume le bâton, on est dans le mode *arc-en-ciel*, sélection de la vitesse de variation ;
+- On appui sur le bouton de mode, on sélectionne l’intensité lumineuse ;
+- On appui sur le bouton de mode, on passe dans le mode *monochrome*, sélection de la couleur ;
+- On appui sur le bouton de mode, on sélectionne l’intensité lumineuse ;
+- On appui sur le bouton de mode, on repasse dans le mode *arc-en-ciel*.
+
+{{< gist spf13 7896402 >}}
 
 **Ajouter un petit graphique expliquant le passage entre les modes**
  
@@ -48,8 +56,12 @@ Le mode  *arc-en-ciel* permet de créer des drapés dont la couleur change le lo
 ## Étape 2 : Partie électronique
 L’ATTiny85 est un super petit microcontrolleur. Il dispose de 6 broches d’entrée/sortie et d’une mémoire bien suffisante pour le programme, il peut tourner à 8 MHz (c’est ultra rapide pour un petit programme comme celui-ci), il est facilement programmable avec un arduino et il est vraiment bon marché.
 
-![ATTiny85 pinout](/img/)
-Pour limiter le nombre de composants électronique j’ai choisi de contrôler la luminosité des leds par PWM (et non par le courant). Du coup, il faut choisir avec soins les broches de l’ATTiny car toutes ne proposent pas cette fonction.
+
+{{< figure src="/img/rainbow-ledbar/attiny85-pinout.jpg" title="Fonctions des broches de l’ATTiny85" >}}
+
+
+L’intensité lumineuse des leds peut être contrôlée soit l’intensité du courant qui traverse la led soit par PWM.
+Pour limiter le nombre de composants électroniques j’ai choisi la sollution du PWM qui est une fonction de base qu’on trouve sur l’ATTiny85. Mais il faut choisir avec soins les broches car toutes ne proposent pas cette fonction.
 
 Pour faire ce bâton lumineux il nous faut des leds RGBs, ici à cathode commune (la masse en commun). Chaque couleur est contrôlée par une broche dédiée sur la led.
 Nous avons également besoin d'un bouton poussoir pour pouvoir changer de mode (une broche) ainsi qu'un potentiomètre pour faire varier 
