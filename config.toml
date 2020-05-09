@@ -3,6 +3,7 @@ DefaultContentLanguage = "fr"
 languageCode = "fr-fr"
 title = "Richard Fagot"
 theme = "beautifulhugo"
+googleAnalytics = "UA-165981365-1"
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
