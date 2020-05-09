@@ -120,4 +120,4 @@ Laissez à votre enfant le temps d'encaisser le choc de cette surprise magnifiqu
 
 Pour finir les extréminés du tube vous pouvez faire deux pompons que vous fixerez à la colle chaude sur un petit tube d'un diamètre légérement inférieur à celui du tube de distanciation. Si, à l'étape d'enroulement des feuilles vous avez réalisé un tube un poil plus grand qu'un rouleau de papier toilette, vous pouvez utiliser ce dernier pour y fixer le pompon. 
 
-Ce système permet d'enlever le pompon s'il devait y avoir un souci d'hygiène. Vous pouver le désinfecter en le laissant au plus près d'une eau bouillante pendant une minute ou deux.
+Ce système permet d'enlever le pompon s'il devait y avoir un souci d'hygiène. Vous pouvez le désinfecter en le laissant au plus près d'une eau bouillante pendant une minute ou deux.
